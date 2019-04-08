@@ -14,7 +14,7 @@ int main(void) {
 	min=(sectotol/60)-(hour*60);
 	sec=sectotol-(min*60)-(hour*3600);
 	
-	printf("時間為:%d時%d分%d秒",hour,min,sec);
+	printf("換算後時間為:%d時%d分%d秒\n",hour,min,sec);
 	
 	system("PAUSE");
 	return 0;
